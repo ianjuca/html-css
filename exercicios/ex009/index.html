@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo teste.ico" type="image/x-icon">
+    <title>Listas</title>
+    <style>
+        body {
+            background-color: cyan;
+        }
+        .lista-lang {
+            position: relative;
+            left: 1250px;
+            top: -770px;
+        }
+        .lista-game {
+            position: relative;
+            left: 1600px;
+            top: -1155px;
+        }
+        .lista-def {
+            position: relative;
+            top: -1100px;
+            left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 30px;">Trabalhando com Listas</h1>
+    <h2 style="position: relative; left: 100px;">Listas Ordenadas</h2>
+    <p style="position: relative; left:40px ;"><small>O que tá marcado são as tags para utilizar nos códigos</small></p>
+    <p style="position: relative; left: 40px;">Para listas ordenadas utilize a tag <mark>OL</mark> e <br> para listar os itens dentro dessa lista ordenada utilize <mark>LI</mark> <br> Podemos também escolher o tipo de numeração da lista,<br>
+         se vai ser numérico (<mark>type ="1"</mark>), alfabético (<mark>type="A ou a"</mark>) ou romano (<mark>type="I ou i"</mark>) <br> Além disso podemos escolher de qual posição ela começa <br> basta usar (<mark>start="4"</mark>) , nesse exemplo ela iria começar do número 4, <br> se quiser que comece de outro número é só trocar no lugar do 4. </p>
+    <ol style="position: relative; left: 80px;">
+        <li>Acordar</li>
+        <li>Ligar para o joão</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir pra faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2 style="text-align: center; position: relative; top: -420px;">Listas não Ordenadas</h2>
+    <p style="position: relative; text-align: center; top: -420px;"><small>O que ta marcado são as  tags para utilizar nos códigos</small></p>
+    <p style="position: relative; top: -420px; text-align: center;">Para listas não ordenadas utilize a tag <mark>UL</mark> e <br>para listar os itens dentro dessa lista não ordenada utilize <mark>LI</mark> <br> Podemos escolher também o tipo de pontuação da lista, <br> para bolinha preenchida use (<mark>type="disc"</mark>), <br> para bolinha vazia use (<mark>type="circle</mark>") e <br> para quadrados use (<mark>type="square"</mark>) . .</p>
+    <ul style="position: relative; left: 900px; top: -420px;">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <div class="lista-lang">
+        <h2 style="position: relative; right: 30px;">Minhas linguagens favoritas</h2>
+        <p style="position: relative; right: 30px;"><small>O que tá marcado são as tags para utilizar nos códigos</small></p>
+        <p style="position: relative; right: 30px;">Para fazer esse tipo de lista utilizei dois <mark>OL</mark>, <br> o primeiro para criar uma lista ordenada e <br>o segundo dentro do primeiro para criar uma <br> sub-lista ordenada.Sendo que na sub-lista eu usei <br> (<mark>type="a"</mark>) e na segunda sub-lista usei o (<mark>start="5"</mark>)</p>
+        <ol>
+            <li>Antigas</li>
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ol>
+            <li>Novas</li>
+            <ol type="a" start="5">
+                <li>PHP</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+            </ol>
+        </ol>
+    </div>
+    <div class="lista-game">
+        <h2>Meus jogos favoritos</h2>
+        <p style="position: relative; right: 30px;"><small>O que tá marcado são as tags para utilizar nos códigos</small></p>
+        <p style="position: relative; right: 30px;">Para fazer esse tipo de lista eu fiz uma lista <br> ordenada usando <mark>OL</mark> e dentro criei várias <br> sub-listas não ordenadas usando <mark>UL</mark>. <br>Para haver diferenciação na primeira sub-lista <br>eu usei (<mark>type="square"</mark>) e na segunda sub-lista <br>eu usei (<mark>type="circle"</mark>)</p>
+        <ol>
+            <li>NES</li>
+            <ul type="square">
+                <li>Mario Bros</li>
+                <ul type="circle">
+                    <li>Mario Bros 3</li>
+                    <li>Mario: Lost Levels</li>
+                </ul>
+                <li>Ninja Gaiden</li>
+            </ul>
+            <li>SNES</li>
+            <ul type="square">
+                <li>Mario</li>
+                <li>Donkey Kong</li>
+            </ul>
+            <li>PlayStation</li>
+            <ul type="square">
+                <li>Final Fantasy</li>
+                <li>Castlevania</li>
+            </ul>
+        </ol>
+    </div>
+    <div class="lista-def">
+        <h2 style="position: relative; left: 50px;">Lista de definições</h2>
+        <p><small>O que tá marcado são as tags para utilizar nos códigos</small></p>
+        <p>Para listas de definições eu uso <mark>DL</mark> <br> para criar a lista, dentro uso <mark>DT</mark> <br> para definir um termo e abaixo eu <br>uso <mark>DD</mark> para descrever o termo.</p>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação para a criação do design de um site.</dd>
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+        </dl>
+    </div>
+
+
+</body>
+</html>
