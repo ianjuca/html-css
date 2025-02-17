@@ -1,2 +1,2 @@
 console.log("Os dados foram enviados!");
-console.log("Aprenda PHP para saber o que fazer com eles.");
+console.log("Aprenda JavaScript para saber o que fazer com eles.");
